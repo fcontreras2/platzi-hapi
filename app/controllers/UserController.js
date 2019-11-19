@@ -1,29 +1,29 @@
 
+import User from '../model/User';
+
 /**
- * @api {get} /user/:id Request User information
- * @apiName GetUser
+ * @api {get} /users/
+ * @apiName GET - Todos
  * @apiGroup User
- *
- * @apiParam {Number} id Users unique ID.
  *
  * @apiSuccess {String} firstname Firstname of the User.
  * @apiSuccess {String} lastname  Lastname of the User.
  */
-exports.get = (req,h) => {
+exports.getAll = (req,h) => {
   return 'hola'
 }
 
-
-/**
- * @api {get} /user/222 GET - Request User information 222
- * @apiName GetUser22
- * @apiGroup User
- *
- * @apiParam {Number} id Users unique ID.
- *
- * @apiSuccess {String} firstname Firstname of the User.
- * @apiSuccess {String} lastname  Lastname of the User.
- */
-exports.get2 = (req,h) => {
-  return 'hola'
-}
+// /**
+//  * @api {get} /user/:id Request User information
+//  * @apiName GetUser
+//  * @apiGroup User
+//  *
+//  * @apiParam {Number} id Users unique ID.
+//  *
+//  * @apiSuccess {String} firstname Firstname of the User.
+//  * @apiSuccess {String} lastname  Lastname of the User.
+//  */
+// exports.getByName = async (req,h) => {
+//   const user = await User.find(req.params)
+//   return user;
+// }

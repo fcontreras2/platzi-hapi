@@ -2,8 +2,8 @@ import UserController from '../controllers/UserController';
 
 export default [
   {
-    method: ["GET","POST","DELETE","PATCH"],
+    method: ["GET"],
     path: '/users',
-    handler: UserController.get,
+    handler: UserController.getAll,
   }
 ]

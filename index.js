@@ -5,7 +5,7 @@ const path = require("path");
 const inert = require("@hapi/inert");
 const Vision = require("@hapi/vision");
 const hbs = require("handlebars");
-
+require('./app/config/db');
 import { routes } from "./app/routes";
 
 const init = async () => {

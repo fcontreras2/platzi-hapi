@@ -1,0 +1,6 @@
+{
+  "config": "app",
+  "migrations-path":"app",
+  "seeders-path":"app",
+  "models-path":"app"
+}
