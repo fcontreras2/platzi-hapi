@@ -14,17 +14,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hapi/boom": "^8.0.1",
     "@hapi/hapi": "^18.4.0",
     "@hapi/inert": "^5.2.2",
     "@hapi/joi": "^16.1.7",
     "@hapi/vision": "^5.5.4",
-    "handlebars": "^4.5.2",
-    "hapi-swagger": "^11.0.1",
-    "mongoose": "^5.7.11",
-    "mysql": "^2.17.1",
-    "mysql2": "^2.0.0",
-    "sequelize": "^5.21.2",
-    "sequelize-cli": "^5.5.1"
+    "mongoose": "^5.7.11"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.0",

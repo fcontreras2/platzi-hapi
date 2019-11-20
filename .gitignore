@@ -3,3 +3,4 @@ node_modules
 .vscode
 public/doc/**
 package-lock.json
+.env
